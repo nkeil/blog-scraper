@@ -1,0 +1,24 @@
+{
+  "name": "sam-altman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.ts",
+  "type": "module",
+  "scripts": {
+    "scrape": "bun src/scraper.ts",
+    "random": "bun src/random.ts",
+    "read": "bun src/read.ts",
+    "favorite": "bun src/favorite.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "jsdom": "^24.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.4",
+    "@types/jsdom": "^21.1.7"
+  }
+}
